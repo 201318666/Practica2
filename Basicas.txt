@@ -29,6 +29,6 @@ function raiz(a,b){
     
 }
 
-function modular(a, b){
+function modulo(a, b){
     return a % b;
 }
