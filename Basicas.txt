@@ -7,7 +7,10 @@ function resta(a, b){
 }
 
 function division(a, b){
-    return a/b;
+    if(b<>0)
+        return a/b;
+    else
+        print("Error");
 }
 
 function multiplicar(a, b){
@@ -19,5 +22,9 @@ function potencia(a, b){
 }
 
 function raiz(a,b){
-    return Math.Pow(a, 1/b);
+    if(b<>0)
+        return Math.Pow(a, 1/b);
+    else
+        print("Error");
+    
 }
