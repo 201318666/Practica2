@@ -17,3 +17,7 @@ function multiplicar(a, b){
 function potencia(a, b){
     return a ^ b;
 }
+
+function raiz(a,b){
+    return Math.Pow(a, 1/b);
+}
