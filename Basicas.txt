@@ -28,3 +28,7 @@ function raiz(a,b){
         print("Error");
     
 }
+
+function modular(a, b){
+    return a % b;
+}
